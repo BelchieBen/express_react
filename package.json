@@ -1,13 +1,19 @@
 {
-  "dependencies": {
-    "express": "^4.17.3",
-    "sequelize": "^6.17.0"
-  },
-  "engines":{
+  "name": "new_express_react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
     "node": "16.13.1"
   },
   "scripts": {
-    "start": "node backend/index.js",
-    "build": "cd frontend && npm install && npm run build"
+    "start": "node server/index.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
   }
 }
