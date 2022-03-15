@@ -1,7 +1,7 @@
 const express = require("express");
 const path = require("path");
 
-const PORT = process.env.PORT || 80;
+const PORT = process.env.PORT || 2500;
 
 const app = express();
 app.use(express.static(path.resolve(__dirname, '../client/build')));
